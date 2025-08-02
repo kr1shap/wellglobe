@@ -1,0 +1,54 @@
+{
+  "mmr": {
+    "description": "MMR vaccine protects against measles, mumps, and rubella, which are contagious viral diseases.",
+    "link": "https://www.cdc.gov/vaccines/vpd/mmr/index.html"
+  },
+  "covid-19": {
+    "description": "COVID-19 vaccines help protect against severe illness caused by the SARS-CoV-2 virus.",
+    "link": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html"
+  },
+  "influenza": {
+    "description": "Influenza vaccine helps protect against seasonal flu viruses that infect the nose, throat, and lungs.",
+    "link": "https://www.cdc.gov/flu/prevent/index.html"
+  },
+  "tetanus": {
+    "description": "Tetanus vaccine protects against tetanus, a serious disease caused by bacteria entering through cuts or wounds.",
+    "link": "https://www.cdc.gov/vaccines/vpd/tetanus/index.html"
+  },
+  "hepatitis b": {
+    "description": "Hepatitis B vaccine protects against a serious liver infection caused by the hepatitis B virus.",
+    "link": "https://www.cdc.gov/hepatitis/hbv/index.htm"
+  },
+  "hepatitis a": {
+    "description": "Hepatitis A vaccine protects against a contagious liver disease caused by the hepatitis A virus.",
+    "link": "https://www.cdc.gov/hepatitis/hav/index.htm"
+  },
+  "typhoid": {
+    "description": "Typhoid vaccine protects against typhoid fever, a bacterial infection spread through contaminated food and water.",
+    "link": "https://www.cdc.gov/typhoid-fever/index.html"
+  },
+  "rabies": {
+    "description": "Rabies vaccine protects against rabies virus infection, which is transmitted by animal bites.",
+    "link": "https://www.cdc.gov/rabies/index.html"
+  },
+  "japanese encephalitis": {
+    "description": "Japanese encephalitis vaccine protects against a viral brain infection spread by mosquitoes in Asia.",
+    "link": "https://www.cdc.gov/japaneseencephalitis/index.html"
+  },
+   "yellow fever": {
+    "description": "Yellow fever vaccine protects against a viral disease transmitted by mosquitoes, common in parts of Africa and South America. It is often required for travelers arriving from risk countries.",
+    "link": "https://www.cdc.gov/yellowfever/index.html"
+  },
+  "polio": {
+    "description": "Polio vaccine protects against poliomyelitis, a viral disease that can cause paralysis. Required in some countries for travelers coming from outbreak areas.",
+    "link": "https://www.cdc.gov/vaccines/vpd/polio/index.html"
+  },
+  "cholera": {
+    "description": "Cholera vaccine protects against cholera, a bacterial infection causing severe diarrhea and dehydration, spread through contaminated water or food.",
+    "link": "https://www.cdc.gov/cholera/index.html"
+  },
+  "meningococcal vaccine": {
+    "description": "Meningococcal vaccine protects against meningococcal disease, a serious bacterial infection. Required for pilgrims attending Hajj or Umrah in Saudi Arabia.",
+    "link": "https://www.cdc.gov/vaccines/vpd/mening/index.html"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "antigua and barbuda": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b", "typhoid"]
+  },
+  "bahamas": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "barbados": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "belize": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b", "typhoid", "rabies"]
+  },
+  "canada": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "costa rica": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b", "typhoid"]
+  },
+  "cuba": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "dominica": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "dominican republic": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "el salvador": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "grenada": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "guatemala": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "haiti": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid", "cholera", "rabies"]
+  },
+  "honduras": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "jamaica": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "mexico": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b", "typhoid", "rabies"]
+  },
+  "nicaragua": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "panama": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b", "typhoid", "rabies"]
+  },
+  "saint kitts and nevis": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "saint lucia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "saint vincent and the grenadines": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "trinidad and tobago": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "typhoid"]
+  },
+  "united states": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "anguilla": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "aruba": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "bermuda": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "british virgin islands": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "cayman islands": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "curaçao": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "greenland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "guadeloupe": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "martinique": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "montserrat": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "puerto rico": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "sint maarten": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "turks and caicos islands": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a"]
+  },
+  "united states virgin islands": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "albania": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "andorra": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "austria": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "belarus": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "belgium": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "bosnia and herzegovina": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "bulgaria": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "croatia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "cyprus": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "czechia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "denmark": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "estonia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "finland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "france": {
+    "required": ["polio (if arriving from outbreak countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "germany": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "greece": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "hungary": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "iceland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "ireland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "italy": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "latvia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "liechtenstein": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "lithuania": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "luxembourg": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "malta": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "moldova": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "monaco": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "montenegro": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "netherlands": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "north macedonia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "norway": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "poland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "portugal": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "romania": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "russia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "san marino": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "serbia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "slovakia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "slovenia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "spain": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "hepatitis b"]
+  },
+  "sweden": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "switzerland": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "ukraine": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "united kingdom": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "vatican city": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus"]
+  },
+  "china": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "india": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies", "japanese encephalitis"]
+  },
+  "japan": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "south korea": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "indonesia": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies", "japanese encephalitis"]
+  },
+  "pakistan": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "bangladesh": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "thailand": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies", "japanese encephalitis"]
+  },
+  "vietnam": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "philippines": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "malaysia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "singapore": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "uae": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "iran": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "iraq": {
+    "required": ["yellow fever (if arriving from risk countries)"],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "nepal": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies", "japanese encephalitis"]
+  },
+  "sri lanka": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a", "typhoid", "rabies"]
+  },
+  "kazakhstan": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "turkey": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b", "hepatitis a"]
+  },
+  "azerbaijan": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  }
+
+}
