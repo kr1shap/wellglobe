@@ -4,7 +4,7 @@ type props = {
 
 function WarnCard(prop: props) {
   return (
-    <div className="bg-[#4B7399] rounded-xl p-6 w-[600px] h-[100px] shadow-sm flex items-center text-white">
+    <div className="bg-[#4B7399] rounded-xl p-6 w-[6=700px] h-[100px] shadow-sm flex items-center text-white mb-10">
       {/* Left icon */}
       <div className="text-white text-4xl mr-4">
         <i className="bi bi-exclamation-circle"></i>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   GoogleMap,
   LoadScript,
@@ -8,58 +8,67 @@ import {
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 type Props = {
-  center: google.maps.LatLngLiteral;
-  radius?: number;
+  center: { lat: number; lng: number };
 };
 
-const HospitalMap: React.FC<Props> = ({ center, radius = 5000 }) => {
-  const mapRef = useRef<google.maps.Map | null>(null);
-  const [places, setPlaces] = useState<google.maps.places.PlaceResult[]>([]);
+type Place = {
+  name: string;
+  geometry: {
+    location: {
+      lat: number | (() => number);
+      lng: number | (() => number);
+    };
+  };
+};
 
-  const onLoad = (map: google.maps.Map) => {
-    mapRef.current = map;
+const HospitalMap: React.FC<Props> = ({ center }) => {
+  const [places, setPlaces] = useState<Place[]>([]);
 
-    const service = new google.maps.places.PlacesService(map);
-    const request: google.maps.places.PlaceSearchRequest = {
-      location: center,
-      radius,
-      type: "hospital",
+  useEffect(() => {
+    const fetchHospitals = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:8000/nearby-hospitals?lat=${center.lat}&lng=${center.lng}`
+        );
+        const data = await response.json();
+        console.log("Fetched hospitals/clinics:", data.results);
+        setPlaces(data.results || []);
+      } catch (error) {
+        console.error("Error fetching hospitals:", error);
+      }
     };
 
-    service.nearbySearch(request, (results, status) => {
-      if (status === google.maps.places.PlacesServiceStatus.OK && results) {
-        setPlaces(results);
-      }
-    });
-  };
+    fetchHospitals();
+  }, [center]);
 
   return (
-    <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY} libraries={["places"]}>
-      <GoogleMap
-        mapContainerStyle={{
-          width: "100%",
-          height: "400px",
-          borderRadius: "16px",
-        }}
-        center={center}
-        zoom={13}
-        onLoad={onLoad}
-      >
-        {places.map(
-          (place, index) =>
-            place.geometry?.location && (
-              <Marker
-                key={index}
-                position={{
-                  lat: place.geometry.location.lat(),
-                  lng: place.geometry.location.lng(),
-                }}
-                title={place.name}
-              />
-            )
-        )}
-      </GoogleMap>
-    </LoadScript>
+    <div className="rounded-xl border-2 border-[#4B7399] overflow-hidden shadow-md w-full max-w-[1084px] mx-auto mb-15">
+      <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
+        <GoogleMap
+          mapContainerStyle={{
+            width: "800px",
+            height: "350px", // matches screenshot
+          }}
+          center={center}
+          zoom={13}
+        >
+          {places.map((place, idx) => (
+            <Marker
+              key={idx}
+              position={{
+                lat: typeof place.geometry.location.lat === "function"
+                  ? place.geometry.location.lat()
+                  : place.geometry.location.lat,
+                lng: typeof place.geometry.location.lng === "function"
+                  ? place.geometry.location.lng()
+                  : place.geometry.location.lng,
+              }}
+              title={place.name}
+            />
+          ))}
+        </GoogleMap>
+      </LoadScript>
+    </div>
   );
 };
 
