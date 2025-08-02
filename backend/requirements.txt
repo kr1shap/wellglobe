@@ -7,3 +7,4 @@ httpx                     # Optional async client
 python-dotenv             # For managing secrets like API keys
 pillow                    # For image manipulation (OCR prep)
 fastapi[all]              # Includes Jinja2, CORS, etc.
+google-generativeai
