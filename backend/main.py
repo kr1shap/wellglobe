@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.vaccines import router as vaccines_router
+from api.emergency import router as emergency_router
 
 
 app = FastAPI()
@@ -15,4 +16,5 @@ app.add_middleware(
 )
 
 app.include_router(vaccines_router)
+app.include_router(emergency_router)
 
