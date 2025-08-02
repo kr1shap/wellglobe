@@ -48,7 +48,7 @@ function HomePage() {
     }
 
     console.log("Countries are valid:", { from, dest }); //for denugging
-    goToResult(dest, from);
+    goToResult(dest.trim().toLowerCase(), from.trim().toLowerCase());
   };
 
   return (
