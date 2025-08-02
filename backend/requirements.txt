@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart          # For file/image uploads
+pydantic
+aiohttp                   # For async Gemini/OpenAI API requests
+httpx                     # Optional async client
+python-dotenv             # For managing secrets like API keys
+pillow                    # For image manipulation (OCR prep)
+fastapi[all]              # Includes Jinja2, CORS, etc.
