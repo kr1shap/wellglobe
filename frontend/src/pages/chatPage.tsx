@@ -1,9 +1,9 @@
 
-function chatPage() { 
+function ChatPage() { 
     return(<>
     
     </>
     )
 }
 
-export default chatPage
+export default ChatPage
