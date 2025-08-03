@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -52,24 +53,39 @@ function HomePage() {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row gap-40">
-      <div className="flex flex-col gap-3 items-center justify-center">
-        <img
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="flex flex-col sm:flex-row gap-40"
+    >
+      <motion.div
+        initial={{ scale: 0.9, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="flex flex-col gap-3 items-center justify-center"
+      >
+        <motion.img
+          whileHover={{ scale: 1.03 }}
+          transition={{ type: "spring", stiffness: 80, damping: 25 }}
           className="
-            w-43 h-40
-            sm:w-[230px] sm:h-[200px] 
-            transition-all duration-300 cursor-pointer
-            object-cover
-          "
+        w-43 h-40
+        sm:w-[230px] sm:h-[200px] 
+        transition-all duration-300 cursor-pointer
+        object-cover
+      "
           src="/wellglobeLogo.png"
           alt="WellGlobe Logo"
         />
         <p className="text-xl sm:text-5xl font-black text-center mt-3 text-blue-950">
           WellGlobe
         </p>
-      </div>
+      </motion.div>
       {/* sign up */}
-      <div
+      <motion.div
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
         className="pt-10 pb-10 sm:p-[50px] flex flex-col gap-5 w-full h-full rounded-4xl
       bg-white/20  shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[5px] border border-white/30 min-w-xl"
       >
@@ -104,15 +120,17 @@ function HomePage() {
 
         {/* Submit Button */}
         <div className="flex justify-center items-center align-middle mt-4">
-          <button
+          <motion.button
+            whileHover={{ scale: 1.05, backgroundColor: "#365d7d" }}
+            whileTap={{ scale: 0.95 }}
             onClick={handleSubmit}
             className="w-[50%] bg-[#4B7399] hover:bg-blue-900 text-white font-semibold py-2 px-4 rounded-3xl transition"
           >
             Submit
-          </button>
+          </motion.button>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 

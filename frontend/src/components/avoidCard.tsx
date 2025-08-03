@@ -1,27 +1,39 @@
+import type { avoidance } from "../schema/avoidance";
+import { motion } from "framer-motion";
+
 type props = {
-  avoidName?: string;
-  description?: string;
-  symbol?: string;
+  title?: string | null;
+  desc?: string | null;
+  symbol?: string | null;
 };
 
 function AvoidCard(prop: props) {
   return (
-    <div className="bg-[#E9F7FF] rounded-3xl border-2 border-[#000000] p-3 flex flex-row items-center max-w-[350px] h-[80px] w-full overflow-hidden">
-      {/* image div */}
-      <div className="mr-2">
-        <i className={`text-2xl text-[#4B7399] ${prop.symbol ?? "bi bi-question-circle-fill"}`}></i>
-      </div>
+    <motion.div
+      className="bg-[#E9F7FF] rounded-3xl border-2 border-[#000000] p-4 flex flex-row items-start max-w-[350px] w-full overflow-hidden space-x-3 shadow-sm"
+      whileHover={{ scale: 1.02, boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.1)" }}
+      transition={{ type: "tween", ease: "easeInOut", duration: 0.25 }}
+    >
+      {/* icon */}
+      <motion.div
+        className="text-2xl text-[#4B7399] flex items-center justify-center h-full"
+        style={{ minHeight: "64px" }} 
+        whileHover={{ rotate: -5 }}
+        transition={{ type: "spring", stiffness: 100 }}
+      >
+        <i className={prop.symbol ?? "bi bi-question-circle-fill"}></i>
+      </motion.div>
 
-      {/* description div */}
-      <div className="overflow-hidden">
-        <p className="text-[15px] font-bold text-black transition-colors duration-300 hover:text-[#4B7399] truncate">
-          {prop.avoidName ?? "N/A"}
+      {/* content */}
+      <div className="flex flex-col overflow-hidden">
+        <p className="text-[15px] font-bold text-black transition-colors duration-300 hover:text-[#4B7399] break-words">
+          {prop.title ?? "N/A"}
         </p>
-        <p className="text-xs font-medium text-black transition-colors duration-300 hover:text-[#4B7399] line-clamp-2">
-          {prop.description ?? "No description"}
+        <p className="text-xs font-medium text-black transition-colors duration-300 hover:text-[#4B7399] whitespace-pre-line break-words">
+          {prop.desc ?? "No description"}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
