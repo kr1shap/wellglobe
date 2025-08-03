@@ -406,6 +406,85 @@
   "azerbaijan": {
     "required": [],
     "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "kenya": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "influenza", "hepatitis a", "typhoid", "malaria"]
+  },
+  "nigeria": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "tetanus", "hepatitis a", "typhoid", "meningitis"]
+  },
+  "south africa": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "hepatitis b", "tetanus", "rabies"]
+  },
+  "uganda": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "malaria"]
+  },
+  "ghana": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "meningitis"]
+  },
+  "ethiopia": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "tetanus", "hepatitis a", "typhoid", "cholera"]
+  },
+  "morocco": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis a", "rabies"]
+  },
+  "tanzania": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "malaria"]
+  },
+  "senegal": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "typhoid", "hepatitis a", "tetanus", "malaria"]
+  },
+  "democratic republic of the congo": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "cholera", "hepatitis a", "typhoid", "malaria"]
+  },
+    "djibouti": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "malaria"]
+  },
+  "comoros": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "rabies"]
+  },
+  "lesotho": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "influenza", "tetanus", "hepatitis b"]
+  },
+  "equatorial guinea": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "typhoid", "hepatitis a", "malaria"]
+  },
+  "guinea-bissau": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "tetanus", "hepatitis a", "typhoid", "cholera"]
+  },
+  "são tomé and príncipe": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "typhoid", "tetanus", "hepatitis a", "malaria"]
+  },
+  "eswatini": {
+    "required": [],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "tetanus", "influenza"]
+  },
+  "gabon": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "malaria", "tetanus"]
+  },
+  "central african republic": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "cholera", "malaria"]
+  },
+  "burundi": {
+    "required": ["yellow fever"],
+    "recommended": ["mmr", "covid-19", "hepatitis a", "typhoid", "tetanus", "malaria"]
   }
-
 }
